@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">Fieldrun</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="navigation_item_1">All Trips</string>
+    <string name="navigation_item_2">Active Trips</string>
+    <string name="navigation_item_3">Stats</string>
+    <string name="navigation_item_4">My Profile</string>
+    <string name="navigation_item_5">Send Feedback</string>
+    <string name="navigation_item_6">About Us</string>
+    <string name="navigation_item_7">Log Out</string>
+    <string name="navigation_item_8">Rate Us</string>
+    <string name="navigation_item_9">Print Barcode</string>
+    <string name="navigation_item_10">Pending Events</string>
+    <string name="closeDrawer">Navigation View</string>
+    <string name="openDrawer">Navigation View Closed</string>
+
+    <string name="prompt_username">Username</string>
+    <string name="prompt_password">Password</string>
+
+    <string name="login_message">Login Below</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="login_username">Username</string>
+    <string name="login_password">Password</string>
+    <string name="login_button">Login</string>
+    <string name="title_task_list">Trip Details</string>
+    <string name="title_task_detail">Task Detail</string>
+    <string name="qc_review">QC Review</string>
+    <string name="title_trip_list">Active Trip</string>
+    <string name="sign_out">Logout</string>
+    <string name="task_awb">AWB</string>
+    <string name="task_name">Name</string>
+    <string name="task_address">Address</string>
+    <string name="task_phone">Phone</string>
+    <string name="task_button_call">Call</string>
+    <string name="task_button_delivered">Done</string>
+    <string name="task_button_doorstep">Doorstep</string>
+    <string name="task_button_cancel">Cancel</string>
+    <string name="task_button_failed">Failed</string>
+    <string name="task_button_print">Print</string>
+    <string name="task_button_failed_ok">OK</string>
+    <string name="text_logo">LOGO</string>
+    <string name="label_trip_active">Active Trip</string>
+    <string name="lable_trip_acceptance">Trip Awaiting acceptance</string>
+
+
+    <string name="title_activity_active_trip">ActiveTrip</string>
+    <string name="alltrips">All Trips</string>
+    <string name="activetask">Active Task</string>
+    <string name="pickups">Pickups</string>
+    <string name="trip_complete">Trip Complete</string>
+    <string name="trip_start">Start Trip</string>
+    <string name="action_about">About</string>
+    <string name="action_all">ALL</string>
+    <string name="action_done">DONE</string>
+    <string name="action_failed">FAILED</string>
+    <string name="task_button_pick">Picked</string>
+    <string name="title_activity_task_failure">Update Task</string>
+    <string name="captureimage">Capture Image</string>
+    <string name="capturedimage">Captured Image</string>
+
+
+    <string name="devicelist_action_button_text_scan">Scan</string>
+    <string name="devicelist_action_button_text_cancel">STOP</string>
+    <string name="none_found">none found</string>
+    <string name="none_paired">none paired</string>
+    <string name="task_button_hosdetail">HOS Detail</string>
+</resources>

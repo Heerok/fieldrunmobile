@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:id="@+id/rl1"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:background="@color/white">
+        <ImageView
+            android:id="@+id/iconimage"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/outerlogo"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+            android:id="@+id/versionno"
+            android:layout_below="@+id/iconimage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Version No - 23"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:textColor="@color/PrimaryColor"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/rl2"
+        android:layout_below="@+id/rl1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/border">
+        <ScrollView
+            android:id="@+id/scrollViewrl1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:fillViewport="false">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                    <TextView
+                        android:id="@+id/tx1"
+                        android:layout_width="wrap_content"
+                        android:layout_margin="5dp"
+                        android:layout_height="wrap_content"
+                        android:text="We are working in the area of improving efficiency for e-commerce logistics automation. Our product, FieldIQ offers automated route development for ecommerce pickup and delivery operation, improves efficiency and can save upto 30% of costs. Product provides solution incorporating industry constraints including bag size, vehicle size, carrying weight, delivery time window, duty time, delivery vehicle etc."/>
+                <TextView
+                    android:id="@+id/tx2"
+                    android:layout_below="@id/tx1"
+                    android:layout_width="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_height="wrap_content"
+                    android:text="FieldIQ is an application to improve the efficiency of logistics operations. Typically we don’t only help to control operations within a warehouse or distribution center, but also the broader tasks undertaken by supply chain management systems and enterprise resource planning systems."/>
+                <TextView
+                    android:id="@+id/tx3"
+                    android:layout_below="@id/tx2"
+                    android:layout_width="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_height="wrap_content"
+                    android:text="FieldIQ can powerfully complement the facilities provided to the higher level computer systems and mobile apps. The focus on an individual node within a wider logistics network allows systems to be highly tailored to the requirements of that node."/>
+
+            </RelativeLayout>
+
+        </ScrollView>
+    </RelativeLayout>
+</RelativeLayout>

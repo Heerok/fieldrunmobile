@@ -1,0 +1,73 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="25px">
+        <TextView
+            android:id="@+id/ptext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/PrimaryColor"
+            android:textStyle="bold"
+            android:text="Pickup Address"
+            android:padding="5px"
+            android:background="@drawable/bottomborder"/>
+
+        <TextView
+            android:id="@+id/paddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pickup data"
+            android:layout_margin="20px" />
+
+        <TextView
+            android:id="@+id/dtext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/PrimaryColor"
+            android:textStyle="bold"
+            android:padding="5px"
+            android:text="Deleivery Address"
+            android:background="@drawable/bottomborder"/>
+
+        <TextView
+            android:id="@+id/daddress"
+            android:layout_alignBottom="@+id/dtext"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Deleivery data"
+            android:layout_margin="20px" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/btnli"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="4"
+        android:layout_marginTop="15dp">
+        <Button
+            android:id="@+id/task_button_can"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            android:textColor="#FFFFFF"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_margin="5dp"
+            android:background="@color/PrimaryColor"/>
+        <Button
+            android:id="@+id/task_button_proceed"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:text="Proceed"
+            android:textColor="#FFFFFF"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_margin="5dp"
+            android:background="@color/PrimaryColor"/>
+    </LinearLayout>
+</LinearLayout>

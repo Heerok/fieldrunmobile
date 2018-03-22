@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_alignParentTop="true"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/appbanner"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:background="@color/white" />
+   <!-- <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white">
+        <TextView
+            android:id="@+id/apptriptext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textColor="@color/PrimaryColor"
+            android:textSize="16dip"
+            android:text="All Trips"
+            android:background="@color/white"
+            android:textStyle="bold"/>
+        <View
+            android:layout_below="@+id/apptriptext"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@color/PrimaryDarkColor"></View>
+    </RelativeLayout>-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center">
+        <TextView
+            android:id="@+id/notrips"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="No Trip Assigned"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="24dp"
+            android:gravity="center"
+            android:visibility="visible"
+            />
+        <ListView
+            android:id="@+id/listView1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" android:dividerHeight="1px"
+            android:layout_marginBottom="0dp"
+            android:divider="#e0e0e0"
+            >
+        </ListView>
+    </RelativeLayout>
+</LinearLayout>

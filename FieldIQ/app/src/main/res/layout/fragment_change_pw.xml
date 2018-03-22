@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@color/white">
+    <RelativeLayout
+        android:id="@+id/rl1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true">
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/changepassword"/>
+        <TextView
+            android:layout_below="@+id/img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/PrimaryColor"
+            android:textSize="24dip"
+            android:layout_marginTop="8dip"
+            android:layout_centerHorizontal="true"
+            android:text="Change Password"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif-medium"
+            android:visibility="gone"
+            android:textColorHighlight="@color/PrimaryDarkColor"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/rchpw"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/rl1"
+        android:layout_margin="10dp"
+        android:paddingTop="3dp"
+        android:paddingBottom="3dp"
+        android:background="@drawable/border">
+        <EditText android:id="@+id/newpw"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:hint="New Password"
+            android:inputType="textEmailAddress" android:maxLines="1"
+            android:layout_margin="10dp"
+            android:textSize="18dp"
+            android:drawablePadding="5dp"
+            android:drawableLeft="@drawable/passwordicon"
+            android:singleLine="true" />
+        <EditText android:id="@+id/confirmpassword" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:hint="Confirm Password"
+            android:layout_below="@+id/newpw" android:maxLines="1"
+            android:layout_margin="10dp"
+            android:textSize="18dp"
+            android:drawableLeft="@drawable/passwordicon"
+            android:drawablePadding="5dp"
+            android:inputType="textPassword"
+            android:singleLine="true" />
+        <Button
+            android:id="@+id/changebtn"
+            android:layout_below="@id/confirmpassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:layout_margin="10dp"
+            android:background="@color/PrimaryColor"
+            android:textColor="@color/white"
+            android:text="Change"/>
+    </RelativeLayout>
+</RelativeLayout>

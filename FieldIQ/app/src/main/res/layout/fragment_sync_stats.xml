@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Background update events stats"
+        android:layout_margin="6dp"
+        android:textColor="@color/PrimaryColor"
+        android:textSize="14dp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#e0e0e0" />
+
+    <TextView
+        android:id="@+id/bgcallserverAttempt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Server call attempt count"
+        android:layout_margin="10dp"
+        android:textSize="12dp"/>
+
+    <TextView
+        android:id="@+id/bgcallserverSuccess"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Server call attempt success count"
+        android:layout_margin="10dp"
+        android:textSize="12dp"/>
+
+    <TextView
+        android:id="@+id/bgcallserverFail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Server call attempt success count"
+        android:layout_margin="10dp"
+        android:textSize="12dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Refresh click update events stats"
+        android:layout_margin="6dp"
+        android:textColor="@color/PrimaryColor"
+        android:textSize="14dp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#e0e0e0" />
+
+    <TextView
+        android:id="@+id/rccallserverAttempt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Server call attempt count"
+        android:layout_margin="10dp"
+        android:textSize="12dp"/>
+
+    <TextView
+        android:id="@+id/rccallserverSuccess"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Server call attempt success count"
+        android:layout_margin="10dp"
+        android:textSize="12dp"/>
+
+    <TextView
+        android:id="@+id/rccallserverFail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Server call attempt success count"
+        android:layout_margin="10dp"
+        android:textSize="12dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Complete click update events stats"
+        android:layout_margin="6dp"
+        android:textSize="12dp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#e0e0e0" />
+
+    <TextView
+        android:id="@+id/cccallserverAttempt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Server call attempt count"
+        android:layout_margin="10dp"
+        android:textSize="12dp"/>
+
+    <TextView
+        android:id="@+id/cccallserverSuccess"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Server call attempt success count"
+        android:layout_margin="10dp"
+        android:textSize="12dp"/>
+
+    <TextView
+        android:id="@+id/cccallserverFail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Server call attempt success count"
+        android:layout_margin="10dp"
+        android:textSize="12dp"/>
+
+</LinearLayout>
+    </ScrollView>
+    <TextView
+        android:id="@+id/pendingevents"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/PrimaryColor"
+        android:layout_alignParentBottom="true"
+        android:text=""
+        android:padding="6dp"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="normal"/>
+    </RelativeLayout>

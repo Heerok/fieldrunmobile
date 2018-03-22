@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/rl1"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="@color/white">
+        <ImageView
+            android:id="@+id/iconimage"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/barcode"
+            android:layout_centerHorizontal="true"/>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/rl2"
+        android:layout_below="@+id/rl1"
+        android:layout_width="fill_parent"
+        android:layout_above="@+id/footer"
+        android:layout_height="fill_parent"
+        android:background="@color/white">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+                <RelativeLayout
+                    android:id="@+id/brl"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="5dp">
+                    <EditText
+                        android:id="@+id/productid"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:hint="Enter product id"
+                        />
+                    <EditText
+                        android:id="@+id/no_copy"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_below="@+id/productid"
+                        android:hint="Enter quantity"
+                        />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:id="@+id/l1"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="30dp"
+                    android:layout_below="@+id/brl"
+                    android:layout_centerInParent="true"
+                    android:weightSum="1"
+
+                    >
+                    <Button
+                        android:layout_width="0dp"
+                        android:layout_weight=".5"
+                        android:layout_height="wrap_content"
+                        android:background="@color/PrimaryColor"
+                        android:textColor="#ffffff"
+                        android:text="Connect"
+                        android:layout_margin="10dp"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:id="@+id/btn_connect"
+                        />
+                    <Button
+                        android:layout_width="0dp"
+                        android:layout_weight=".5"
+                        android:layout_height="wrap_content"
+                        android:background="@color/PrimaryColor"
+                        android:textColor="#ffffff"
+                        android:text="Print"
+                        android:layout_margin="10dp"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:id="@+id/btn_print"
+                        />
+                    </LinearLayout>
+
+            </RelativeLayout>
+
+    </RelativeLayout>
+</RelativeLayout>

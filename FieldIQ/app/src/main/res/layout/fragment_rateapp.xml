@@ -1,0 +1,69 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f2f2f2"
+    android:paddingTop="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#f2f2f2"
+        android:orientation="vertical">
+
+        <TextView
+            android:paddingTop="10dip"
+            android:id="@+id/textView1"
+            android:text="If you enjoy this app, please take a moment to rate this app.It won't take more than a minute,Thank you for your support."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="30dp"
+            android:textColor="@android:color/black"
+            android:textSize="18dp" />
+        <TextView
+            android:paddingTop="10dip"
+            android:id="@+id/textView2"
+            android:text="Give Us Five Star To Improve OurSelf."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="30dp"
+            android:layout_below="@id/textView1"
+            android:textColor="@color/PrimaryColor"
+            android:textSize="18dp" />
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:src="@drawable/five_star_rating"
+            android:padding="10dp"
+            android:layout_below="@id/textView2"
+            android:layout_marginLeft="30dp"
+            android:layout_centerHorizontal="true"/>
+        <Button
+            android:id="@+id/rateappbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:background="@color/PrimaryColor"
+            android:text="Rate It Now"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="normal"
+            tools:ignore="SpUsage" />
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:layout_above="@id/rateappbtn"
+            android:background="#d5d5d5" />
+    </RelativeLayout>
+</RelativeLayout>

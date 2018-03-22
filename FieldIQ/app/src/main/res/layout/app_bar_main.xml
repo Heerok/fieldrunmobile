@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:fitsSystemWindows="true"
+    tools:context=".MainActivity">
+
+    <android.support.design.widget.AppBarLayout android:layout_height="wrap_content"
+        android:layout_width="match_parent" android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar android:id="@+id/toolbar"
+            android:layout_width="match_parent" android:layout_height="?attr/actionBarSize"
+            android:background="@color/PrimaryColor"   app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+            <RelativeLayout
+                android:id="@+id/notification"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:background="@color/PrimaryDarkColor"
+                android:layout_gravity="right"
+                android:padding="5dp"
+                >
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/ic_stat_social_notifications"
+                    android:layout_gravity="right"
+                    android:gravity="right|top">
+
+                    <TextView
+                        android:id="@+id/noofnotil"
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:text="2"
+                        android:padding="0dp"
+                        android:textColor="@color/white"
+                        android:textSize="10dp"
+                        android:gravity="center"
+                        android:background="@drawable/bg_parent_rounded_corner"
+                        />
+                </RelativeLayout>
+            </RelativeLayout>
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <include layout="@layout/content_main"/>
+
+    <android.support.design.widget.FloatingActionButton android:id="@+id/refreshbtn"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end" android:layout_margin="10dp"
+        app:backgroundTint="@color/PrimaryColor"
+        app:borderWidth="0dp"
+        app:elevation="2dp"
+        app:fabSize="normal"
+        android:src="@android:drawable/ic_popup_sync"/>
+
+</android.support.design.widget.CoordinatorLayout>
+

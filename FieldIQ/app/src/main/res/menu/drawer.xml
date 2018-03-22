@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+                <group android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/AllTrips"
+                        android:checked="true"
+                        android:icon="@drawable/all_trips"
+                        android:title="@string/navigation_item_1" />
+                    <item
+                        android:id="@+id/ActiveTrips"
+                        android:checked="false"
+                        android:icon="@drawable/active_trip"
+                        android:title="@string/navigation_item_2" />
+                    <item
+                        android:id="@+id/TodayStats"
+                        android:checked="false"
+                        android:icon="@drawable/event"
+                        android:title="Today Stats" />
+                    <item
+                        android:id="@+id/pendingeventmenu"
+                        android:checked="false"
+                        android:icon="@drawable/event"
+                        android:title="@string/navigation_item_10" />
+                    <item
+                        android:id="@+id/ChangePassword"
+                        android:checked="false"
+                        android:icon="@drawable/changepassword"
+                        android:title="Change Password" />
+                    <item
+                        android:id="@+id/Stats"
+                        android:checked="false"
+                        android:icon="@drawable/ic_action_trending_up"
+                        android:title="@string/navigation_item_3" />
+                    <item
+                        android:id="@+id/SyncStats"
+                        android:checked="false"
+                        android:icon="@drawable/ic_action_trending_up"
+                        android:title="Sync Stats" />
+                    <item
+                        android:id="@+id/MyProfile"
+                        android:checked="false"
+                        android:icon="@drawable/ic_action_account_box"
+                        android:title="@string/navigation_item_4" />
+                    <item
+                        android:id="@+id/SendFeedback"
+                        android:checked="false"
+                        android:icon="@drawable/icon_feedback"
+                        android:title="@string/navigation_item_5" />
+                    <item
+                        android:id="@+id/About"
+                        android:checked="false"
+                        android:icon="@drawable/icon_about"
+                        android:title="@string/navigation_item_6" />
+                    <item
+                        android:id="@+id/Rateus"
+                        android:checked="false"
+                        android:icon="@drawable/rateus"
+                        android:title="@string/navigation_item_8" />
+                    <item
+                        android:id="@+id/barcode"
+                        android:checked="false"
+                        android:icon="@drawable/barcode"
+                        android:title="@string/navigation_item_9" />
+
+                    <item
+                        android:id="@+id/Signout"
+                        android:checked="false"
+                        android:icon="@drawable/sign_out"
+                        android:title="@string/navigation_item_7" />
+                </group>
+
+       <!-- <item
+            android:id="@+id/navigation_hyper"
+            android:title="Hyper Local">
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/HyperAllTrips"
+                        android:checked="false"
+                        android:icon="@drawable/all_trips"
+                        android:title="@string/navigation_item_1" />
+                    <item
+                        android:id="@+id/HyperActiveTrips"
+                        android:checked="false"
+                        android:icon="@drawable/active_trip"
+                        android:title="@string/navigation_item_2" />
+                    <item
+                        android:id="@+id/HyperTasks"
+                        android:checked="false"
+                        android:icon="@drawable/active_trip"
+                        android:title="Individual Task" />
+
+                    <item
+                        android:id="@+id/Stats1"
+                        android:checked="false"
+                        android:icon="@drawable/ic_action_trending_up"
+                        android:title="@string/navigation_item_3" />
+                </group>
+            </menu>
+        </item>-->
+   <!-- <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/MyProfile"
+            android:checked="false"
+            android:icon="@drawable/ic_action_account_box"
+            android:title="@string/navigation_item_4" />
+        <item
+            android:id="@+id/Settings"
+            android:checked="false"
+            android:icon="@drawable/ic_action_settings"
+            android:title="@string/navigation_item_5" />
+        <item
+            android:id="@+id/About"
+            android:checked="false"
+            android:icon="@drawable/btn_about"
+            android:title="@string/navigation_item_6" />
+        <item
+            android:id="@+id/Signout"
+            android:checked="false"
+            android:icon="@drawable/sign_out"
+            android:title="@string/navigation_item_7" />
+    </group>-->
+</menu>

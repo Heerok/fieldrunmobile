@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#fff">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="20px">
+        <TextView
+            android:id="@+id/ptext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/PrimaryColor"
+            android:textStyle="bold"
+            android:text="Pickup Details"
+            android:padding="3px"
+            android:background="@drawable/bottomborder"/>
+
+        <TextView
+            android:id="@+id/pdetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pickup data"
+            android:layout_margin="10px" />
+
+        <TextView
+            android:id="@+id/dtext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/PrimaryColor"
+            android:textStyle="bold"
+            android:padding="3px"
+            android:text="Deleivery Details"
+            android:background="@drawable/bottomborder"/>
+
+        <TextView
+            android:id="@+id/ddetails"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Deleivery data"
+            android:layout_margin="10px" />
+
+        <Button
+            android:id="@+id/task_button_proceed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Proceed"
+            android:textColor="#FFFFFF"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+
+            android:background="@color/PrimaryColor"/>
+    </LinearLayout>
+
+</LinearLayout>

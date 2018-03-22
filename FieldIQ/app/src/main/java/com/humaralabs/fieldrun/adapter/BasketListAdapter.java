@@ -21,7 +21,7 @@ public class BasketListAdapter extends BaseAdapter {
     private ArrayList<Basket> basketList;
     private LayoutInflater inflater;
     DbAdapter db;
-    TinyDB tinydb;
+    TinyDB tinydb;;
     Context adapterContext;
     private int resource;
     public int taskStatus=0;
